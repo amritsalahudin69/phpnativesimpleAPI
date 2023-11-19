@@ -1,13 +1,19 @@
 # phpnativesimpleAPI
 
-- app
-  - config
-  - controllers
-  - models
-  - views
-- public
-  - css
-  - js
-- vendor
-- .htaccess
-- index.php
+|-- public/
+|   |-- index.php
+|   |-- assets/
+|       |-- css/
+|       |-- js/
+|-- app/
+|   |-- routes/
+|       |-- Routing.php
+|   |-- controller/
+|       |-- UserController.php
+|   |-- model/
+|       |-- UserModel.php
+|   |-- config/
+|       |-- Database.php
+|-- vendor/
+|-- .env
+|-- .htaccess
